@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AES-RSA Client</string>
+  </property>
+
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout">
+
+    <!-- CONNECT -->
+    <item>
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QLineEdit" name="txtIP">
+        <property name="placeholderText">
+         <string>IP</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="txtPort">
+        <property name="placeholderText">
+         <string>Port</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnConnect">
+        <property name="text">
+         <string>Connect</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+
+    <!-- CHAT -->
+    <item>
+     <widget class="QTextEdit" name="txtChat">
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+
+    <!-- SEND -->
+    <item>
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QLineEdit" name="txtMessage"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnSend">
+        <property name="text">
+         <string>Send</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+
+    <!-- AES RSA -->
+    <item>
+     <widget class="QLabel">
+      <property name="text">
+       <string>--- AES / RSA ---</string>
+      </property>
+     </widget>
+    </item>
+
+    <item>
+     <widget class="QTextEdit" name="txtPlain">
+      <property name="placeholderText">
+       <string>Plaintext</string>
+      </property>
+     </widget>
+    </item>
+
+    <item>
+     <widget class="QTextEdit" name="txtCipher">
+      <property name="placeholderText">
+       <string>Ciphertext (AES)</string>
+      </property>
+     </widget>
+    </item>
+
+    <item>
+     <widget class="QTextEdit" name="txtKey">
+      <property name="placeholderText">
+       <string>Encrypted AES Key (RSA)</string>
+      </property>
+     </widget>
+    </item>
+
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
