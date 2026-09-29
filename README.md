@@ -9,7 +9,7 @@
 | STT | Họ và Tên | Mã số sinh viên (MSSV) | Vai trò / Nhiệm vụ |
 |:---:|:---|:---:|:---|
 | 1 | [Họ tên thành viên 1] | [MSSV 1] | Trưởng nhóm / Fullstack Pipeline |
-| 2 | [Họ tên thành viên 2] | [MSSV 2] | UI Design / Testing & Document |
+| 2 | [Trần Văn Lượng ] | [2380601307] | Member | Database |
 
 ---
 
